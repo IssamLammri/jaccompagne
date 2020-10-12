@@ -8,6 +8,7 @@
     <title>J'accompagne</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
@@ -317,7 +318,7 @@
             <div class="row wow fadeIn">
 
                 <!--Grid column-->
-                <div class="col-lg-6 col-md-12 px-4">
+                <div class="col-lg-6 col-md-12 px-4 fadeInDown">
 
                     <!--First row-->
                     <div class="row">
@@ -389,10 +390,10 @@
             <h2 class="my-5 h3 text-center">Not enough?</h2>
 
             <!--First row-->
-            <div class="row features-small mb-5 mt-3 wow fadeIn">
+            <div class="row features-small mb-5 mt-3">
 
                 <!--First column-->
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInLeft">
                     <!--First row-->
                     <div class="row">
                         <div class="col-2">
@@ -451,13 +452,13 @@
                 <!--/First column-->
 
                 <!--Second column-->
-                <div class="col-md-4 flex-center">
-                    <img src="https://mdbootstrap.com/img/Others/screens.png" alt="MDB Magazine Template displayed on iPhone" class="z-depth-0 img-fluid">
+                <div class="col-md-4 flex-center wow fadeInUp">
+                    <img src="https://mdbootstrap.com/img/Others/screens.png" id="animated-img1" alt="MDB Magazine Template displayed on iPhone">
                 </div>
                 <!--/Second column-->
 
                 <!--Third column-->
-                <div class="col-md-4 mt-2">
+                <div class="col-md-4 mt-2 wow fadeInRight">
                     <!--First row-->
                     <div class="row">
                         <div class="col-2">
@@ -746,7 +747,7 @@
 
 <!-- SCRIPTS -->
 <!-- JQuery -->
-<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
 <!-- Bootstrap tooltips -->
 <script type="text/javascript" src="js/popper.min.js"></script>
 <!-- Bootstrap core JavaScript -->
@@ -757,6 +758,7 @@
 <script type="text/javascript">
     // Animations initialization
     new WOW().init();
+
 </script>
 </body>
 
